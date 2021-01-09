@@ -39,6 +39,9 @@ class Car2{
     Car2(color,"auto",5); // Car2가 아니라 this를 사용하기
     }
      */
+    {
+        this.color = "white";
+    }
 
     Car2(){
         this("white","auto",4);
