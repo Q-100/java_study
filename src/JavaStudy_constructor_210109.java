@@ -35,8 +35,8 @@ class Car2{
     int door;
     /*
     Car2(String color){
-    door = 5;            // this를 사용할떈 무조건 첫번째 줄에서 사용해야함
-    Car2(color,"auto",5); // Car2가 아니라 this를 사용하기
+        door = 5;            // this를 사용할떈 무조건 첫번째 줄에서 사용해야함
+        Car2(color,"auto",5); // Car2가 아니라 this를 사용하기
     }
      */
     {
@@ -54,6 +54,7 @@ class Car2{
         this.gearType = g;
         this.door = d;
     }
+
     /*
     Car2(String color,String gearType, int door){ // 지역변수랑 인스턴스변수를 구분할려고 this 사용
         this.color = color;
