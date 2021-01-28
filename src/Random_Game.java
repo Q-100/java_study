@@ -16,7 +16,7 @@ public class Random_Game {
                 if (Num == randomNumber){
                     System.out.println("정답입니다! ");
                     break;
-                }ㅇ
+                }
                 else if (Num > randomNumber){
                     System.out.println(Num+"보다 작은 숫자입니다.");
                 }
