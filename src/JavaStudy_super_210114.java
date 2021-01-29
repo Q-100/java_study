@@ -3,7 +3,6 @@ public class JavaStudy_super_210114 {
         Child c = new Child(5);
         c.method();
 
-
     }
 }
 class Parent{
