@@ -11,23 +11,7 @@ class B implements I{
 interface I {
     void play();
 }
-class Marine{
 
-}
-class SCV{
-
-}
-class Tank{
-
-}
-class DropShip{
-
-}
-class GroundUnit{
-    void move(){
-        System.out.println("땅에서 이동중");
-    }
-}
 public class JavaStudy_210201_interface_ex1 {
     public static void main(String[] args) {
         A a = new A();

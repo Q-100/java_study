@@ -2,7 +2,7 @@ public class JavaStudy_210201_interface {
     public static void main(String[] args) {
         Fighter f = new Fighter();
         f.move(5,3);
-        Unit u = new Fighter();
+        Unit1 u = new Fighter();
         Fightable f1 = new Fighter();
         f1.move(3,5);
 
@@ -25,7 +25,7 @@ interface Movable{ // 원래는 Class test이렇게하면 뒤에 extends Object�
 interface Attackable{
     void attack(int x);
 }
-class Fighter extends Unit implements Fightable{
+class Fighter extends Unit1 implements Fightable{
     public void move(int x, int y){} // 인터페이스들의 move와 attack은 public이 기본인데 생략해서 표시함
     public void attack(int x){} // 그래서 public을 까먹지않고붙여줘야됨
 
@@ -33,7 +33,7 @@ class Fighter extends Unit implements Fightable{
 abstract class Fighter1 implements Fightable{ // 추상클래스처럼 메서드를 모두 구현하지 않았을 경우 abstarct를 붙여줘야됨
     public void move(int x, int y){}
 }
-class Unit{
+class Unit1{
     int currentHP;
     int x;
     int y;
