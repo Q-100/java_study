@@ -1,4 +1,4 @@
-public class JavaStudy_superEx_210114 {
+public class JavaStudy_210114_superEx {
     public static void main(String[] args) {
 
     }

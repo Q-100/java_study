@@ -1,4 +1,4 @@
-public class JavaStudy_block_210113 {
+public class JavaStudy_210113_block {
     public static void main(String[] args) {
         Document d1 = new Document();
         Document d2 = new Document("Java");

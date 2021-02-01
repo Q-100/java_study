@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JavaStudy_polymorphism1_210131 {
+public class JavaStudy_210131_polymorphism1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         buyer b = new buyer();

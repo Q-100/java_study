@@ -1,4 +1,4 @@
-public class JavaStudy_inheritance_210114 {
+public class JavaStudy_210114_inheritance {
     public static void main(String[] args) {
         Circle c = new Circle();
         c.p.x = 1;

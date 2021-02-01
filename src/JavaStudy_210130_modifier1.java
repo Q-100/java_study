@@ -1,4 +1,4 @@
-public class JavaStudy_modifier1_210130 {
+public class JavaStudy_210130_modifier1 {
     public static void main(String[] args) {
         Time t = new Time();
         t.setHour(55);

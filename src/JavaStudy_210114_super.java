@@ -1,4 +1,4 @@
-public class JavaStudy_super_210114 {
+public class JavaStudy_210114_super {
     public static void main(String[] args) {
         Child c = new Child(5);
         c.method();

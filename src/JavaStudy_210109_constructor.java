@@ -1,4 +1,4 @@
-public class JavaStudy_constructor_210109 {
+public class JavaStudy_210109_constructor {
     public static void main(String[] args) {
         Data1 d1 = new Data1(5);
         Data2 d2 = new Data2(5); // Data2 클래스에는 생성자가 존재하기 때문에 인자가 필요함

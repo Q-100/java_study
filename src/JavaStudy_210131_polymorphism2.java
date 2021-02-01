@@ -1,4 +1,4 @@
-public class JavaStudy_polymorphism2_210131 {
+public class JavaStudy_210131_polymorphism2 {
     public static void main(String[] args) {
         Product p1 = new Tv2();
         Product p2 = new Computer();

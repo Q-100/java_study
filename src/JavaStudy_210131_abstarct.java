@@ -1,4 +1,4 @@
-public class JavaStudy_abstarct_210131 {
+public class JavaStudy_210131_abstarct {
     public static void main(String[] args) {
         AudioPlayer a = new AudioPlayer();
 // 추상클래스는 상속을 통해 완성해야 객체 생성가능
@@ -15,4 +15,5 @@ class AudioPlayer extends Player{
 abstract class abstractPlayer extends Player{
     void play(int poss){}
     // 이 클래스는 play메서드만 구현하고 stop메서드를 구현하지 않아서 추상클래스로 작성됨
-} 
+}
+

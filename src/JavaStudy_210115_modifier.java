@@ -1,4 +1,4 @@
-public class JavaStudy_modifier_210115 {
+public class JavaStudy_210115_modifier {
     public static void main(String[] args) {
         System.out.println(StaticTest.max(3,5));
         FinalTest f = new FinalTest(9);

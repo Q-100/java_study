@@ -1,4 +1,4 @@
-public class JavaStudy_Class_210109 {
+public class JavaStudy_210109_Class {
     public static void main(String[] args) {
         System.out.println(Mymath2.add_static(0.15,0.49)); // 클래스 메소드는 바로사용가능
 
