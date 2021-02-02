@@ -228,7 +228,6 @@ public class StarCraft {
                                 }
                                 int choice_power = scanner.nextInt();
                             }
-
                     }
                     break;
                 case 4:
@@ -236,10 +235,6 @@ public class StarCraft {
                     user.showpower();
                     break;
             }
-
-
-
-
         }
     }
 }
