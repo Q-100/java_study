@@ -16,23 +16,16 @@ class Unit{
         this.airattackable = airattackable;
         this.price = price;
     }
-
 }
 class GroundUnit extends Unit{
     GroundUnit(int currentHP, int currentxy, int attack, boolean airattackable, int price){
         super(currentHP, currentxy, attack, airattackable, price);
-    }
-    void move(Unit unit){
-
     }
 
 }
 class Marine extends GroundUnit{
     Marine(){
         super(50,0,5,true,50);
-    }
-    void test(){
-        currentxy = 3;
     }
 
     public String toString(){
@@ -190,7 +183,7 @@ public class StarCraft {
                     System.out.println("==========   돌아가기  ==========");
                     switch (scanner.nextInt()){
                         case 1:
-                            Unit scv = new SCV();
+                            SCV scv = new SCV();
                             user.buy_unit(scv);
                             break;
                         case 2:
@@ -227,6 +220,7 @@ public class StarCraft {
                                     System.out.println(i+"."+user.unit_main.get(i));
                                 }
                                 int choice_power = scanner.nextInt();
+                                System.out.println(user.unit_main.get(choice_power));
                             }
                     }
                     break;
