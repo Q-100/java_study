@@ -160,7 +160,7 @@ public class StarCraft {
             while(Loop1) {
                 Loop1 = true;
                 System.out.println(" ");
-                System.out.println("==========행동을 선택하세요" + "(" + user.turn + ")" + "==========");
+                System.out.println("========== 행동을 선택하세요" + "(" + user.turn + ")" + " ==========");
                 System.out.println("==========   1.유닛뽑기   ==========");
                 System.out.println("==========   2.건물짓기   ==========");
                 System.out.println("==========   3.이동하기   ==========");
